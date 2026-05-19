@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Vector database (regenerate with Ingest.py)
+ipc_vector_db/
+
+# Large PDF files (optional - uncomment if you want to exclude)
+# data/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
